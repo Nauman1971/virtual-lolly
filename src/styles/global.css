@@ -1,0 +1,66 @@
+body {
+    background: linear-gradient(to left, #FF5F6D , #FFC371);
+    text-align: center;
+    height: 100vh;
+    font-family: "Aladin";
+  }
+  
+.lolliesList {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.lollies .lollipop .create-new{
+    height: 300px;
+}
+
+.create-new {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.color-box-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.color-box {
+    height: 80px;
+    width: 80px;
+    margin-top: -10px;
+    margin-left: -10px;
+    cursor: pointer;
+}
+
+.color-box-label {
+    height: 40px;
+    width: 40px;
+    border-radius: 24px;
+    border: 2px solid #fff;
+    display: block;
+    overflow: hidden;
+    margin: 30px;
+    box-shadow: 0 0 14px #000;
+}
+
+.lolly-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.lolly-container {
+    padding: 100px;
+}
+
+.mt-8 {
+    margin-top: 8%;
+}
+
+.mt-10 {
+    margin-top: 10%;
+}

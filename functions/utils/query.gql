@@ -1,0 +1,15 @@
+  type Lolly {
+    sender: String!
+    receiver: String!
+    message: String!
+    color1: String!
+    color2: String!
+    color3: String!
+    slug: String!  
+    }
+
+    type Query {
+    getLolly: [Lolly]
+    getBySlug(slug: String!): Lolly
+    lollies: [Lolly]
+  }
